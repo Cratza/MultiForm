@@ -31,6 +31,7 @@ public partial class Form1 : Form
 
         this.Controls.Add(dgvMainForm);
         this.Controls.Add(btnMain);
+        this.Controls.Add(new Button{Text="Button2",Dock=DockStyle.Bottom});
 
         Students = new List<Student>()
         {
